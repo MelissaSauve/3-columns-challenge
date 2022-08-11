@@ -1,0 +1,136 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+img{
+  margin: 25px 0 0 25px;
+  width: 50px;
+}
+
+.columns{
+  width: 750px;
+  height: 400px;
+  margin: 150px auto 20px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  width: 250px;
+  height: 400PX;
+  border-radius: 15px 0 0 15px;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  width: 250px;
+  height: 400PX;
+  position: relative;
+  left: 250px;
+  bottom: 400px
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  width: 250px;
+  height: 400PX;
+  position: relative;
+  left: 500px;
+  bottom: 800px;
+  border-radius: 0 15px 15px 0;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%, 0.90);
+  margin: 25px 0 0 25px;
+  font-weight: 400;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 100;
+  margin: 25px 25px 0 25px;
+  line-height: 1.5;
+}
+
+.attribution{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.btn-sedans {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;#ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  position: relative;
+  left: 25px;
+  top: 50px;
+}
+
+.btn-sedans:hover {
+  background: hsl(31, 77%, 52%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-suvs {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;#ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  position: relative;
+  left: 25px;
+  top: 50px;
+}
+
+.btn-suvs:hover {
+  background: hsl(184, 100%, 22%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-luxury {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;#ffffff;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  position: relative;
+  left: 25px;
+  top: 50px;
+}
+
+.btn-luxury:hover {
+  background: hsl(179, 100%, 13%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+}
